@@ -12,7 +12,7 @@ import PersonOutLinedIcon from "@mui/icons-material/PersonOutlined";
 import CalendarTodayOutLinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import HelpOutLinedIcon from "@mui/icons-material/HelpOutlined";
 import BarChartOutLinedIcon from "@mui/icons-material/BarChartOutlined";
-import PieChartOutLineOutLinedIcon from "@mui/icons-material/PieChartOutLineOutlined";
+import PieChartOutlinedIcon from "@mui/icons-material/PieChartOutlined";
 import TimelineOutLinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutLinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutLinedIcon from "@mui/icons-material/MapOutlined";
@@ -198,7 +198,7 @@ const Sidebar = () => {
                         <Items
                             title='Pie Chart '
                             to="/pie"
-                            icon={<PieChartOutLineOutLinedIcon />}
+                            icon={<PieChartOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
